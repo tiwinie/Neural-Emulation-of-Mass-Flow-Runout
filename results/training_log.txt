@@ -1,0 +1,525 @@
+nohup: ignoring input
+Using device: cuda
+Train samples: 72470 | Val samples: 9082
+Resumed from weights_test/last_model.pth at epoch 201
+Loaded 200 rows of prior loss history from weights_test/loss_history.csv
+epoch 201 | train 1.1132 (seg 0.0766, thick 1.0367) | val 1.3223 (seg 0.0771, thick 1.2452) | lr 3.91e-06 | epoch time 12m 44s | elapsed 12m 44s | ETA 63h 28m 53s
+  💾 saved checkpoint_epoch0201.pth + updated loss_history.csv/png
+epoch 202 | train 1.1126 (seg 0.0765, thick 1.0361) | val 1.3232 (seg 0.0772, thick 1.2460) | lr 3.91e-06 | epoch time 12m 47s | elapsed 25m 33s | ETA 63h 27m 2s
+  💾 saved checkpoint_epoch0202.pth + updated loss_history.csv/png
+epoch 203 | train 1.1114 (seg 0.0766, thick 1.0347) | val 1.3233 (seg 0.0772, thick 1.2461) | lr 3.91e-06 | epoch time 12m 49s | elapsed 38m 23s | ETA 63h 21m 20s
+  💾 saved checkpoint_epoch0203.pth + updated loss_history.csv/png
+epoch 204 | train 1.1129 (seg 0.0765, thick 1.0364) | val 1.3222 (seg 0.0771, thick 1.2451) | lr 3.91e-06 | epoch time 12m 50s | elapsed 51m 14s | ETA 63h 12m 17s
+  💾 saved checkpoint_epoch0204.pth + updated loss_history.csv/png
+epoch 205 | train 1.1147 (seg 0.0766, thick 1.0381) | val 1.3225 (seg 0.0772, thick 1.2454) | lr 3.91e-06 | epoch time 12m 51s | elapsed 1h 4m 6s | ETA 63h 2m 51s
+  💾 saved checkpoint_epoch0205.pth + updated loss_history.csv/png
+epoch 206 | train 1.1158 (seg 0.0765, thick 1.0393) | val 1.3227 (seg 0.0771, thick 1.2456) | lr 3.91e-06 | epoch time 12m 50s | elapsed 1h 16m 58s | ETA 62h 51m 31s
+  💾 saved checkpoint_epoch0206.pth + updated loss_history.csv/png
+epoch 207 | train 1.1150 (seg 0.0765, thick 1.0385) | val 1.3228 (seg 0.0772, thick 1.2456) | lr 3.91e-06 | epoch time 12m 46s | elapsed 1h 29m 45s | ETA 62h 36m 50s
+  💾 saved checkpoint_epoch0207.pth + updated loss_history.csv/png
+epoch 208 | train 1.1156 (seg 0.0765, thick 1.0390) | val 1.3231 (seg 0.0772, thick 1.2460) | lr 3.91e-06 | epoch time 12m 55s | elapsed 1h 42m 41s | ETA 62h 28m 30s
+  💾 saved checkpoint_epoch0208.pth + updated loss_history.csv/png
+epoch 209 | train 1.1145 (seg 0.0765, thick 1.0380) | val 1.3231 (seg 0.0772, thick 1.2459) | lr 3.91e-06 | epoch time 13m 14s | elapsed 1h 55m 56s | ETA 62h 28m 56s
+  💾 saved checkpoint_epoch0209.pth + updated loss_history.csv/png
+epoch 210 | train 1.1148 (seg 0.0766, thick 1.0383) | val 1.3230 (seg 0.0772, thick 1.2458) | lr 1.95e-06 | epoch time 13m 18s | elapsed 2h 9m 16s | ETA 62h 28m 55s
+  💾 saved checkpoint_epoch0210.pth + updated loss_history.csv/png
+epoch 211 | train 1.1152 (seg 0.0766, thick 1.0386) | val 1.3229 (seg 0.0772, thick 1.2457) | lr 1.95e-06 | epoch time 12m 43s | elapsed 2h 22m 0s | ETA 62h 11m 1s
+  💾 saved checkpoint_epoch0211.pth + updated loss_history.csv/png
+epoch 212 | train 1.1127 (seg 0.0765, thick 1.0362) | val 1.3224 (seg 0.0772, thick 1.2452) | lr 1.95e-06 | epoch time 12m 42s | elapsed 2h 34m 43s | ETA 61h 53m 29s
+  💾 saved checkpoint_epoch0212.pth + updated loss_history.csv/png
+epoch 213 | train 1.1138 (seg 0.0765, thick 1.0373) | val 1.3232 (seg 0.0772, thick 1.2460) | lr 1.95e-06 | epoch time 12m 43s | elapsed 2h 47m 27s | ETA 61h 36m 56s
+  💾 saved checkpoint_epoch0213.pth + updated loss_history.csv/png
+epoch 214 | train 1.1115 (seg 0.0765, thick 1.0350) | val 1.3227 (seg 0.0772, thick 1.2455) | lr 1.95e-06 | epoch time 12m 42s | elapsed 3h 0m 11s | ETA 61h 20m 55s
+  💾 saved checkpoint_epoch0214.pth + updated loss_history.csv/png
+epoch 215 | train 1.1122 (seg 0.0765, thick 1.0357) | val 1.3232 (seg 0.0772, thick 1.2460) | lr 1.95e-06 | epoch time 12m 42s | elapsed 3h 12m 54s | ETA 61h 5m 7s
+  💾 saved checkpoint_epoch0215.pth + updated loss_history.csv/png
+epoch 216 | train 1.1129 (seg 0.0766, thick 1.0363) | val 1.3222 (seg 0.0772, thick 1.2450) | lr 9.77e-07 | epoch time 12m 56s | elapsed 3h 25m 51s | ETA 60h 53m 59s
+  💾 saved checkpoint_epoch0216.pth + updated loss_history.csv/png
+epoch 217 | train 1.1123 (seg 0.0765, thick 1.0358) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 9.77e-07 | epoch time 13m 21s | elapsed 3h 39m 13s | ETA 60h 49m 31s
+  💾 saved checkpoint_epoch0217.pth + updated loss_history.csv/png
+epoch 218 | train 1.1164 (seg 0.0765, thick 1.0399) | val 1.3229 (seg 0.0772, thick 1.2457) | lr 9.77e-07 | epoch time 13m 30s | elapsed 3h 52m 45s | ETA 60h 46m 32s
+  💾 saved checkpoint_epoch0218.pth + updated loss_history.csv/png
+epoch 219 | train 1.1118 (seg 0.0766, thick 1.0352) | val 1.3225 (seg 0.0772, thick 1.2453) | lr 9.77e-07 | epoch time 13m 28s | elapsed 4h 6m 14s | ETA 60h 41m 51s
+  💾 saved checkpoint_epoch0219.pth + updated loss_history.csv/png
+epoch 220 | train 1.1118 (seg 0.0765, thick 1.0353) | val 1.3231 (seg 0.0772, thick 1.2459) | lr 9.77e-07 | epoch time 13m 29s | elapsed 4h 19m 45s | ETA 60h 36m 31s
+  💾 saved checkpoint_epoch0220.pth + updated loss_history.csv/png
+epoch 221 | train 1.1113 (seg 0.0765, thick 1.0347) | val 1.3226 (seg 0.0771, thick 1.2455) | lr 9.77e-07 | epoch time 12m 52s | elapsed 4h 32m 37s | ETA 60h 22m 5s
+  💾 saved checkpoint_epoch0221.pth + updated loss_history.csv/png
+epoch 222 | train 1.1123 (seg 0.0765, thick 1.0358) | val 1.3222 (seg 0.0771, thick 1.2451) | lr 4.88e-07 | epoch time 12m 51s | elapsed 4h 45m 29s | ETA 60h 7m 35s
+  💾 saved checkpoint_epoch0222.pth + updated loss_history.csv/png
+epoch 223 | train 1.1157 (seg 0.0765, thick 1.0391) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 4.88e-07 | epoch time 12m 49s | elapsed 4h 58m 19s | ETA 59h 52m 56s
+  💾 saved checkpoint_epoch0223.pth + updated loss_history.csv/png
+epoch 224 | train 1.1147 (seg 0.0765, thick 1.0381) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 4.88e-07 | epoch time 12m 50s | elapsed 5h 11m 10s | ETA 59h 38m 33s
+  💾 saved checkpoint_epoch0224.pth + updated loss_history.csv/png
+epoch 225 | train 1.1143 (seg 0.0765, thick 1.0377) | val 1.3225 (seg 0.0771, thick 1.2453) | lr 4.88e-07 | epoch time 12m 58s | elapsed 5h 24m 10s | ETA 59h 25m 53s
+  💾 saved checkpoint_epoch0225.pth + updated loss_history.csv/png
+epoch 226 | train 1.1138 (seg 0.0765, thick 1.0373) | val 1.3223 (seg 0.0771, thick 1.2452) | lr 4.88e-07 | epoch time 13m 2s | elapsed 5h 37m 13s | ETA 59h 13m 49s
+  💾 saved checkpoint_epoch0226.pth + updated loss_history.csv/png
+epoch 227 | train 1.1130 (seg 0.0765, thick 1.0365) | val 1.3226 (seg 0.0771, thick 1.2454) | lr 4.88e-07 | epoch time 12m 49s | elapsed 5h 50m 3s | ETA 58h 59m 33s
+  💾 saved checkpoint_epoch0227.pth + updated loss_history.csv/png
+epoch 228 | train 1.1125 (seg 0.0765, thick 1.0360) | val 1.3225 (seg 0.0771, thick 1.2453) | lr 2.44e-07 | epoch time 12m 51s | elapsed 6h 2m 56s | ETA 58h 45m 42s
+  💾 saved checkpoint_epoch0228.pth + updated loss_history.csv/png
+epoch 229 | train 1.1145 (seg 0.0765, thick 1.0380) | val 1.3223 (seg 0.0771, thick 1.2452) | lr 2.44e-07 | epoch time 12m 54s | elapsed 6h 15m 51s | ETA 58h 32m 17s
+  💾 saved checkpoint_epoch0229.pth + updated loss_history.csv/png
+epoch 230 | train 1.1121 (seg 0.0765, thick 1.0357) | val 1.3225 (seg 0.0771, thick 1.2453) | lr 2.44e-07 | epoch time 12m 53s | elapsed 6h 28m 45s | ETA 58h 18m 46s
+  💾 saved checkpoint_epoch0230.pth + updated loss_history.csv/png
+epoch 231 | train 1.1124 (seg 0.0765, thick 1.0359) | val 1.3226 (seg 0.0771, thick 1.2455) | lr 2.44e-07 | epoch time 12m 52s | elapsed 6h 41m 38s | ETA 58h 5m 12s
+  💾 saved checkpoint_epoch0231.pth + updated loss_history.csv/png
+epoch 232 | train 1.1139 (seg 0.0765, thick 1.0374) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 2.44e-07 | epoch time 12m 51s | elapsed 6h 54m 30s | ETA 57h 51m 27s
+  💾 saved checkpoint_epoch0232.pth + updated loss_history.csv/png
+epoch 233 | train 1.1150 (seg 0.0765, thick 1.0385) | val 1.3225 (seg 0.0771, thick 1.2454) | lr 2.44e-07 | epoch time 13m 4s | elapsed 7h 7m 35s | ETA 57h 39m 36s
+  💾 saved checkpoint_epoch0233.pth + updated loss_history.csv/png
+epoch 234 | train 1.1143 (seg 0.0765, thick 1.0377) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.22e-07 | epoch time 13m 9s | elapsed 7h 20m 46s | ETA 57h 28m 22s
+  💾 saved checkpoint_epoch0234.pth + updated loss_history.csv/png
+epoch 235 | train 1.1123 (seg 0.0765, thick 1.0358) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.22e-07 | epoch time 13m 16s | elapsed 7h 34m 3s | ETA 57h 17m 53s
+  💾 saved checkpoint_epoch0235.pth + updated loss_history.csv/png
+epoch 236 | train 1.1138 (seg 0.0765, thick 1.0373) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.22e-07 | epoch time 13m 12s | elapsed 7h 47m 16s | ETA 57h 6m 41s
+  💾 saved checkpoint_epoch0236.pth + updated loss_history.csv/png
+epoch 237 | train 1.1135 (seg 0.0765, thick 1.0370) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.22e-07 | epoch time 13m 8s | elapsed 8h 0m 25s | ETA 56h 54m 57s
+  💾 saved checkpoint_epoch0237.pth + updated loss_history.csv/png
+epoch 238 | train 1.1142 (seg 0.0765, thick 1.0377) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.22e-07 | epoch time 12m 48s | elapsed 8h 13m 14s | ETA 56h 40m 47s
+  💾 saved checkpoint_epoch0238.pth + updated loss_history.csv/png
+epoch 239 | train 1.1133 (seg 0.0766, thick 1.0367) | val 1.3225 (seg 0.0771, thick 1.2453) | lr 1.22e-07 | epoch time 12m 47s | elapsed 8h 26m 3s | ETA 56h 26m 40s
+  💾 saved checkpoint_epoch0239.pth + updated loss_history.csv/png
+epoch 240 | train 1.1124 (seg 0.0765, thick 1.0359) | val 1.3225 (seg 0.0771, thick 1.2453) | lr 6.10e-08 | epoch time 12m 46s | elapsed 8h 38m 50s | ETA 56h 12m 30s
+  💾 saved checkpoint_epoch0240.pth + updated loss_history.csv/png
+epoch 241 | train 1.1110 (seg 0.0765, thick 1.0345) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 6.10e-08 | epoch time 13m 14s | elapsed 8h 52m 5s | ETA 56h 1m 15s
+  💾 saved checkpoint_epoch0241.pth + updated loss_history.csv/png
+epoch 242 | train 1.1141 (seg 0.0765, thick 1.0375) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 6.10e-08 | epoch time 13m 21s | elapsed 9h 5m 27s | ETA 55h 50m 42s
+  💾 saved checkpoint_epoch0242.pth + updated loss_history.csv/png
+epoch 243 | train 1.1120 (seg 0.0765, thick 1.0355) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 6.10e-08 | epoch time 13m 24s | elapsed 9h 18m 53s | ETA 55h 40m 18s
+  💾 saved checkpoint_epoch0243.pth + updated loss_history.csv/png
+epoch 244 | train 1.1161 (seg 0.0765, thick 1.0396) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 6.10e-08 | epoch time 13m 21s | elapsed 9h 32m 15s | ETA 55h 29m 27s
+  💾 saved checkpoint_epoch0244.pth + updated loss_history.csv/png
+epoch 245 | train 1.1124 (seg 0.0766, thick 1.0358) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 6.10e-08 | epoch time 13m 21s | elapsed 9h 45m 36s | ETA 55h 18m 28s
+  💾 saved checkpoint_epoch0245.pth + updated loss_history.csv/png
+epoch 246 | train 1.1120 (seg 0.0765, thick 1.0355) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 3.05e-08 | epoch time 12m 45s | elapsed 9h 58m 22s | ETA 55h 4m 5s
+  💾 saved checkpoint_epoch0246.pth + updated loss_history.csv/png
+epoch 247 | train 1.1140 (seg 0.0765, thick 1.0375) | val 1.3225 (seg 0.0771, thick 1.2453) | lr 3.05e-08 | epoch time 12m 46s | elapsed 10h 11m 9s | ETA 54h 49m 52s
+  💾 saved checkpoint_epoch0247.pth + updated loss_history.csv/png
+epoch 248 | train 1.1128 (seg 0.0764, thick 1.0363) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 3.05e-08 | epoch time 12m 45s | elapsed 10h 23m 56s | ETA 54h 35m 39s
+  💾 saved checkpoint_epoch0248.pth + updated loss_history.csv/png
+epoch 249 | train 1.1140 (seg 0.0765, thick 1.0375) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 3.05e-08 | epoch time 13m 0s | elapsed 10h 36m 57s | ETA 54h 22m 44s
+  💾 saved checkpoint_epoch0249.pth + updated loss_history.csv/png
+epoch 250 | train 1.1126 (seg 0.0765, thick 1.0361) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 3.05e-08 | epoch time 13m 17s | elapsed 10h 50m 15s | ETA 54h 11m 16s
+  💾 saved checkpoint_epoch0250.pth + updated loss_history.csv/png
+epoch 251 | train 1.1123 (seg 0.0765, thick 1.0358) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 3.05e-08 | epoch time 13m 17s | elapsed 11h 3m 33s | ETA 53h 59m 43s
+  💾 saved checkpoint_epoch0251.pth + updated loss_history.csv/png
+epoch 252 | train 1.1142 (seg 0.0764, thick 1.0378) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 18s | elapsed 11h 16m 52s | ETA 53h 48m 12s
+  💾 saved checkpoint_epoch0252.pth + updated loss_history.csv/png
+epoch 253 | train 1.1132 (seg 0.0766, thick 1.0366) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 46s | elapsed 11h 29m 39s | ETA 53h 34m 5s
+  💾 saved checkpoint_epoch0253.pth + updated loss_history.csv/png
+epoch 254 | train 1.1122 (seg 0.0765, thick 1.0357) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 12m 46s | elapsed 11h 42m 26s | ETA 53h 20m 2s
+  💾 saved checkpoint_epoch0254.pth + updated loss_history.csv/png
+epoch 255 | train 1.1116 (seg 0.0765, thick 1.0352) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 46s | elapsed 11h 55m 14s | ETA 53h 6m 4s
+  💾 saved checkpoint_epoch0255.pth + updated loss_history.csv/png
+epoch 256 | train 1.1136 (seg 0.0765, thick 1.0371) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 12m 47s | elapsed 12h 8m 3s | ETA 52h 52m 13s
+  💾 saved checkpoint_epoch0256.pth + updated loss_history.csv/png
+epoch 257 | train 1.1128 (seg 0.0765, thick 1.0363) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 13m 6s | elapsed 12h 21m 9s | ETA 52h 39m 42s
+  💾 saved checkpoint_epoch0257.pth + updated loss_history.csv/png
+epoch 258 | train 1.1138 (seg 0.0765, thick 1.0372) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 13m 21s | elapsed 12h 34m 32s | ETA 52h 28m 14s
+  💾 saved checkpoint_epoch0258.pth + updated loss_history.csv/png
+epoch 259 | train 1.1145 (seg 0.0766, thick 1.0379) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 13m 18s | elapsed 12h 47m 51s | ETA 52h 16m 29s
+  💾 saved checkpoint_epoch0259.pth + updated loss_history.csv/png
+epoch 260 | train 1.1146 (seg 0.0765, thick 1.0381) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 12m 46s | elapsed 13h 0m 38s | ETA 52h 2m 34s
+  💾 saved checkpoint_epoch0260.pth + updated loss_history.csv/png
+epoch 261 | train 1.1147 (seg 0.0766, thick 1.0381) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 12m 46s | elapsed 13h 13m 25s | ETA 51h 48m 40s
+  💾 saved checkpoint_epoch0261.pth + updated loss_history.csv/png
+epoch 262 | train 1.1112 (seg 0.0765, thick 1.0346) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 12m 45s | elapsed 13h 26m 12s | ETA 51h 34m 47s
+  💾 saved checkpoint_epoch0262.pth + updated loss_history.csv/png
+epoch 263 | train 1.1129 (seg 0.0765, thick 1.0364) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 12m 47s | elapsed 13h 39m 0s | ETA 51h 21m 1s
+  💾 saved checkpoint_epoch0263.pth + updated loss_history.csv/png
+epoch 264 | train 1.1124 (seg 0.0766, thick 1.0359) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 12m 52s | elapsed 13h 51m 53s | ETA 51h 7m 36s
+  💾 saved checkpoint_epoch0264.pth + updated loss_history.csv/png
+epoch 265 | train 1.1143 (seg 0.0765, thick 1.0378) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 13m 9s | elapsed 14h 5m 3s | ETA 50h 55m 13s
+  💾 saved checkpoint_epoch0265.pth + updated loss_history.csv/png
+epoch 266 | train 1.1134 (seg 0.0765, thick 1.0369) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 13m 17s | elapsed 14h 18m 22s | ETA 50h 43m 19s
+  💾 saved checkpoint_epoch0266.pth + updated loss_history.csv/png
+epoch 267 | train 1.1122 (seg 0.0765, thick 1.0357) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 13s | elapsed 14h 31m 36s | ETA 50h 31m 5s
+  💾 saved checkpoint_epoch0267.pth + updated loss_history.csv/png
+epoch 268 | train 1.1130 (seg 0.0765, thick 1.0365) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 12m 45s | elapsed 14h 44m 22s | ETA 50h 17m 16s
+  💾 saved checkpoint_epoch0268.pth + updated loss_history.csv/png
+epoch 269 | train 1.1127 (seg 0.0765, thick 1.0362) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 12m 46s | elapsed 14h 57m 9s | ETA 50h 3m 31s
+  💾 saved checkpoint_epoch0269.pth + updated loss_history.csv/png
+epoch 270 | train 1.1132 (seg 0.0765, thick 1.0367) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 12m 46s | elapsed 15h 9m 56s | ETA 49h 49m 48s
+  💾 saved checkpoint_epoch0270.pth + updated loss_history.csv/png
+epoch 271 | train 1.1131 (seg 0.0766, thick 1.0365) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 12m 47s | elapsed 15h 22m 44s | ETA 49h 36m 8s
+  💾 saved checkpoint_epoch0271.pth + updated loss_history.csv/png
+epoch 272 | train 1.1133 (seg 0.0766, thick 1.0367) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 12m 55s | elapsed 15h 35m 40s | ETA 49h 22m 58s
+  💾 saved checkpoint_epoch0272.pth + updated loss_history.csv/png
+epoch 273 | train 1.1121 (seg 0.0765, thick 1.0356) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 13m 14s | elapsed 15h 48m 56s | ETA 49h 10m 48s
+  💾 saved checkpoint_epoch0273.pth + updated loss_history.csv/png
+epoch 274 | train 1.1125 (seg 0.0765, thick 1.0360) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 13m 16s | elapsed 16h 2m 13s | ETA 48h 58m 41s
+  💾 saved checkpoint_epoch0274.pth + updated loss_history.csv/png
+epoch 275 | train 1.1116 (seg 0.0765, thick 1.0351) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 14s | elapsed 16h 15m 29s | ETA 48h 46m 27s
+  💾 saved checkpoint_epoch0275.pth + updated loss_history.csv/png
+epoch 276 | train 1.1133 (seg 0.0765, thick 1.0367) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 45s | elapsed 16h 28m 15s | ETA 48h 32m 45s
+  💾 saved checkpoint_epoch0276.pth + updated loss_history.csv/png
+epoch 277 | train 1.1131 (seg 0.0766, thick 1.0365) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 45s | elapsed 16h 41m 1s | ETA 48h 19m 5s
+  💾 saved checkpoint_epoch0277.pth + updated loss_history.csv/png
+epoch 278 | train 1.1123 (seg 0.0765, thick 1.0358) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 45s | elapsed 16h 53m 48s | ETA 48h 5m 26s
+  💾 saved checkpoint_epoch0278.pth + updated loss_history.csv/png
+epoch 279 | train 1.1128 (seg 0.0765, thick 1.0362) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 12m 46s | elapsed 17h 6m 35s | ETA 47h 51m 52s
+  💾 saved checkpoint_epoch0279.pth + updated loss_history.csv/png
+epoch 280 | train 1.1118 (seg 0.0765, thick 1.0353) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 51s | elapsed 17h 19m 28s | ETA 47h 38m 33s
+  💾 saved checkpoint_epoch0280.pth + updated loss_history.csv/png
+epoch 281 | train 1.1143 (seg 0.0765, thick 1.0378) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 11s | elapsed 17h 32m 40s | ETA 47h 26m 8s
+  💾 saved checkpoint_epoch0281.pth + updated loss_history.csv/png
+epoch 282 | train 1.1126 (seg 0.0764, thick 1.0362) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 13m 14s | elapsed 17h 45m 55s | ETA 47h 13m 49s
+  💾 saved checkpoint_epoch0282.pth + updated loss_history.csv/png
+epoch 283 | train 1.1120 (seg 0.0765, thick 1.0355) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 13m 16s | elapsed 17h 59m 13s | ETA 47h 1m 34s
+  💾 saved checkpoint_epoch0283.pth + updated loss_history.csv/png
+epoch 284 | train 1.1122 (seg 0.0765, thick 1.0356) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 12m 45s | elapsed 18h 11m 59s | ETA 46h 47m 59s
+  💾 saved checkpoint_epoch0284.pth + updated loss_history.csv/png
+epoch 285 | train 1.1130 (seg 0.0765, thick 1.0365) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 12m 44s | elapsed 18h 24m 44s | ETA 46h 34m 21s
+  💾 saved checkpoint_epoch0285.pth + updated loss_history.csv/png
+epoch 286 | train 1.1141 (seg 0.0766, thick 1.0376) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 12m 45s | elapsed 18h 37m 30s | ETA 46h 20m 46s
+  💾 saved checkpoint_epoch0286.pth + updated loss_history.csv/png
+epoch 287 | train 1.1112 (seg 0.0765, thick 1.0347) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 12m 46s | elapsed 18h 50m 17s | ETA 46h 7m 16s
+  💾 saved checkpoint_epoch0287.pth + updated loss_history.csv/png
+epoch 288 | train 1.1120 (seg 0.0764, thick 1.0356) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 4s | elapsed 19h 3m 23s | ETA 45h 54m 31s
+  💾 saved checkpoint_epoch0288.pth + updated loss_history.csv/png
+epoch 289 | train 1.1138 (seg 0.0765, thick 1.0372) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 13m 17s | elapsed 19h 16m 41s | ETA 45h 42m 16s
+  💾 saved checkpoint_epoch0289.pth + updated loss_history.csv/png
+epoch 290 | train 1.1114 (seg 0.0765, thick 1.0349) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 17s | elapsed 19h 29m 59s | ETA 45h 29m 58s
+  💾 saved checkpoint_epoch0290.pth + updated loss_history.csv/png
+epoch 291 | train 1.1125 (seg 0.0765, thick 1.0360) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 15s | elapsed 19h 43m 15s | ETA 45h 17m 35s
+  💾 saved checkpoint_epoch0291.pth + updated loss_history.csv/png
+epoch 292 | train 1.1140 (seg 0.0764, thick 1.0375) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 46s | elapsed 19h 56m 2s | ETA 45h 4m 5s
+  💾 saved checkpoint_epoch0292.pth + updated loss_history.csv/png
+epoch 293 | train 1.1135 (seg 0.0766, thick 1.0369) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 46s | elapsed 20h 8m 50s | ETA 44h 50m 37s
+  💾 saved checkpoint_epoch0293.pth + updated loss_history.csv/png
+epoch 294 | train 1.1125 (seg 0.0765, thick 1.0360) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 44s | elapsed 20h 21m 35s | ETA 44h 37m 6s
+  💾 saved checkpoint_epoch0294.pth + updated loss_history.csv/png
+epoch 295 | train 1.1146 (seg 0.0765, thick 1.0381) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 12m 52s | elapsed 20h 34m 28s | ETA 44h 23m 51s
+  💾 saved checkpoint_epoch0295.pth + updated loss_history.csv/png
+epoch 296 | train 1.1126 (seg 0.0766, thick 1.0360) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 13m 11s | elapsed 20h 47m 40s | ETA 44h 11m 17s
+  💾 saved checkpoint_epoch0296.pth + updated loss_history.csv/png
+epoch 297 | train 1.1151 (seg 0.0764, thick 1.0386) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 20s | elapsed 21h 1m 1s | ETA 43h 59m 3s
+  💾 saved checkpoint_epoch0297.pth + updated loss_history.csv/png
+epoch 298 | train 1.1136 (seg 0.0765, thick 1.0371) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 13m 15s | elapsed 21h 14m 17s | ETA 43h 46m 36s
+  💾 saved checkpoint_epoch0298.pth + updated loss_history.csv/png
+epoch 299 | train 1.1125 (seg 0.0764, thick 1.0360) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 45s | elapsed 21h 27m 3s | ETA 43h 33m 7s
+  💾 saved checkpoint_epoch0299.pth + updated loss_history.csv/png
+epoch 300 | train 1.1150 (seg 0.0765, thick 1.0385) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 45s | elapsed 21h 39m 49s | ETA 43h 19m 39s
+  💾 saved checkpoint_epoch0300.pth + updated loss_history.csv/png
+epoch 301 | train 1.1132 (seg 0.0765, thick 1.0366) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 45s | elapsed 21h 52m 35s | ETA 43h 6m 12s
+  💾 saved checkpoint_epoch0301.pth + updated loss_history.csv/png
+epoch 302 | train 1.1142 (seg 0.0766, thick 1.0376) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 44s | elapsed 22h 5m 21s | ETA 42h 52m 45s
+  💾 saved checkpoint_epoch0302.pth + updated loss_history.csv/png
+epoch 303 | train 1.1138 (seg 0.0765, thick 1.0372) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 52s | elapsed 22h 18m 14s | ETA 42h 39m 33s
+  💾 saved checkpoint_epoch0303.pth + updated loss_history.csv/png
+epoch 304 | train 1.1147 (seg 0.0765, thick 1.0382) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 9s | elapsed 22h 31m 24s | ETA 42h 26m 53s
+  💾 saved checkpoint_epoch0304.pth + updated loss_history.csv/png
+epoch 305 | train 1.1137 (seg 0.0765, thick 1.0372) | val 1.3225 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 12s | elapsed 22h 44m 38s | ETA 42h 14m 19s
+  💾 saved checkpoint_epoch0305.pth + updated loss_history.csv/png
+epoch 306 | train 1.1140 (seg 0.0765, thick 1.0375) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 13s | elapsed 22h 57m 51s | ETA 42h 1m 45s
+  💾 saved checkpoint_epoch0306.pth + updated loss_history.csv/png
+epoch 307 | train 1.1149 (seg 0.0765, thick 1.0384) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 46s | elapsed 23h 10m 38s | ETA 41h 48m 21s
+  💾 saved checkpoint_epoch0307.pth + updated loss_history.csv/png
+epoch 308 | train 1.1128 (seg 0.0766, thick 1.0363) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 46s | elapsed 23h 23m 25s | ETA 41h 34m 58s
+  💾 saved checkpoint_epoch0308.pth + updated loss_history.csv/png
+epoch 309 | train 1.1120 (seg 0.0765, thick 1.0355) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 45s | elapsed 23h 36m 11s | ETA 41h 21m 35s
+  💾 saved checkpoint_epoch0309.pth + updated loss_history.csv/png
+epoch 310 | train 1.1124 (seg 0.0764, thick 1.0360) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 47s | elapsed 23h 48m 59s | ETA 41h 8m 15s
+  💾 saved checkpoint_epoch0310.pth + updated loss_history.csv/png
+epoch 311 | train 1.1125 (seg 0.0765, thick 1.0360) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 53s | elapsed 24h 1m 53s | ETA 40h 55m 7s
+  💾 saved checkpoint_epoch0311.pth + updated loss_history.csv/png
+epoch 312 | train 1.1138 (seg 0.0765, thick 1.0373) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 11s | elapsed 24h 15m 5s | ETA 40h 42m 29s
+  💾 saved checkpoint_epoch0312.pth + updated loss_history.csv/png
+epoch 313 | train 1.1130 (seg 0.0765, thick 1.0364) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 17s | elapsed 24h 28m 24s | ETA 40h 30m 0s
+  💾 saved checkpoint_epoch0313.pth + updated loss_history.csv/png
+epoch 314 | train 1.1125 (seg 0.0765, thick 1.0360) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 15s | elapsed 24h 41m 40s | ETA 40h 17m 28s
+  💾 saved checkpoint_epoch0314.pth + updated loss_history.csv/png
+epoch 315 | train 1.1152 (seg 0.0766, thick 1.0386) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 23s | elapsed 24h 55m 4s | ETA 40h 5m 7s
+  💾 saved checkpoint_epoch0315.pth + updated loss_history.csv/png
+epoch 316 | train 1.1134 (seg 0.0765, thick 1.0369) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 17s | elapsed 25h 8m 23s | ETA 39h 52m 36s
+  💾 saved checkpoint_epoch0316.pth + updated loss_history.csv/png
+epoch 317 | train 1.1109 (seg 0.0765, thick 1.0344) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 22s | elapsed 25h 21m 46s | ETA 39h 40m 13s
+  💾 saved checkpoint_epoch0317.pth + updated loss_history.csv/png
+epoch 318 | train 1.1116 (seg 0.0765, thick 1.0351) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 47s | elapsed 25h 34m 35s | ETA 39h 26m 54s
+  💾 saved checkpoint_epoch0318.pth + updated loss_history.csv/png
+epoch 319 | train 1.1133 (seg 0.0765, thick 1.0367) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 2s | elapsed 25h 47m 38s | ETA 39h 13m 58s
+  💾 saved checkpoint_epoch0319.pth + updated loss_history.csv/png
+epoch 320 | train 1.1123 (seg 0.0764, thick 1.0358) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 17s | elapsed 26h 0m 57s | ETA 39h 1m 25s
+  💾 saved checkpoint_epoch0320.pth + updated loss_history.csv/png
+epoch 321 | train 1.1128 (seg 0.0765, thick 1.0363) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 16s | elapsed 26h 14m 14s | ETA 38h 48m 50s
+  💾 saved checkpoint_epoch0321.pth + updated loss_history.csv/png
+epoch 322 | train 1.1167 (seg 0.0766, thick 1.0401) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 19s | elapsed 26h 27m 35s | ETA 38h 36m 18s
+  💾 saved checkpoint_epoch0322.pth + updated loss_history.csv/png
+epoch 323 | train 1.1120 (seg 0.0765, thick 1.0355) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 54s | elapsed 26h 40m 30s | ETA 38h 23m 9s
+  💾 saved checkpoint_epoch0323.pth + updated loss_history.csv/png
+epoch 324 | train 1.1116 (seg 0.0765, thick 1.0351) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 54s | elapsed 26h 53m 25s | ETA 38h 10m 1s
+  💾 saved checkpoint_epoch0324.pth + updated loss_history.csv/png
+epoch 325 | train 1.1145 (seg 0.0765, thick 1.0380) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 53s | elapsed 27h 6m 19s | ETA 37h 56m 50s
+  💾 saved checkpoint_epoch0325.pth + updated loss_history.csv/png
+epoch 326 | train 1.1118 (seg 0.0766, thick 1.0353) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 58s | elapsed 27h 19m 18s | ETA 37h 43m 48s
+  💾 saved checkpoint_epoch0326.pth + updated loss_history.csv/png
+epoch 327 | train 1.1122 (seg 0.0765, thick 1.0357) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 15s | elapsed 27h 32m 35s | ETA 37h 31m 9s
+  💾 saved checkpoint_epoch0327.pth + updated loss_history.csv/png
+epoch 328 | train 1.1148 (seg 0.0765, thick 1.0383) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 13m 18s | elapsed 27h 45m 54s | ETA 37h 18m 33s
+  💾 saved checkpoint_epoch0328.pth + updated loss_history.csv/png
+epoch 329 | train 1.1140 (seg 0.0765, thick 1.0374) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 22s | elapsed 27h 59m 17s | ETA 37h 6m 2s
+  💾 saved checkpoint_epoch0329.pth + updated loss_history.csv/png
+epoch 330 | train 1.1121 (seg 0.0765, thick 1.0356) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 51s | elapsed 28h 12m 10s | ETA 36h 52m 50s
+  💾 saved checkpoint_epoch0330.pth + updated loss_history.csv/png
+epoch 331 | train 1.1142 (seg 0.0765, thick 1.0377) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 52s | elapsed 28h 25m 3s | ETA 36h 39m 39s
+  💾 saved checkpoint_epoch0331.pth + updated loss_history.csv/png
+epoch 332 | train 1.1123 (seg 0.0765, thick 1.0358) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 52s | elapsed 28h 37m 56s | ETA 36h 26m 28s
+  💾 saved checkpoint_epoch0332.pth + updated loss_history.csv/png
+epoch 333 | train 1.1137 (seg 0.0765, thick 1.0372) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 51s | elapsed 28h 50m 48s | ETA 36h 13m 16s
+  💾 saved checkpoint_epoch0333.pth + updated loss_history.csv/png
+epoch 334 | train 1.1144 (seg 0.0765, thick 1.0379) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 2s | elapsed 29h 3m 52s | ETA 36h 0m 19s
+  💾 saved checkpoint_epoch0334.pth + updated loss_history.csv/png
+epoch 335 | train 1.1141 (seg 0.0765, thick 1.0375) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 24s | elapsed 29h 17m 17s | ETA 35h 47m 48s
+  💾 saved checkpoint_epoch0335.pth + updated loss_history.csv/png
+epoch 336 | train 1.1139 (seg 0.0766, thick 1.0373) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 29s | elapsed 29h 30m 47s | ETA 35h 35m 22s
+  💾 saved checkpoint_epoch0336.pth + updated loss_history.csv/png
+epoch 337 | train 1.1143 (seg 0.0765, thick 1.0378) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 21s | elapsed 29h 44m 9s | ETA 35h 22m 45s
+  💾 saved checkpoint_epoch0337.pth + updated loss_history.csv/png
+epoch 338 | train 1.1136 (seg 0.0765, thick 1.0371) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 50s | elapsed 29h 57m 0s | ETA 35h 9m 32s
+  💾 saved checkpoint_epoch0338.pth + updated loss_history.csv/png
+epoch 339 | train 1.1128 (seg 0.0765, thick 1.0363) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 50s | elapsed 30h 9m 52s | ETA 34h 56m 19s
+  💾 saved checkpoint_epoch0339.pth + updated loss_history.csv/png
+epoch 340 | train 1.1145 (seg 0.0765, thick 1.0380) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 51s | elapsed 30h 22m 44s | ETA 34h 43m 8s
+  💾 saved checkpoint_epoch0340.pth + updated loss_history.csv/png
+epoch 341 | train 1.1124 (seg 0.0765, thick 1.0359) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 59s | elapsed 30h 35m 45s | ETA 34h 30m 6s
+  💾 saved checkpoint_epoch0341.pth + updated loss_history.csv/png
+epoch 342 | train 1.1140 (seg 0.0765, thick 1.0374) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 20s | elapsed 30h 49m 5s | ETA 34h 17m 26s
+  💾 saved checkpoint_epoch0342.pth + updated loss_history.csv/png
+epoch 343 | train 1.1121 (seg 0.0764, thick 1.0357) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 25s | elapsed 31h 2m 32s | ETA 34h 4m 52s
+  💾 saved checkpoint_epoch0343.pth + updated loss_history.csv/png
+epoch 344 | train 1.1125 (seg 0.0765, thick 1.0359) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 13m 27s | elapsed 31h 16m 0s | ETA 33h 52m 20s
+  💾 saved checkpoint_epoch0344.pth + updated loss_history.csv/png
+epoch 345 | train 1.1156 (seg 0.0765, thick 1.0390) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 53s | elapsed 31h 28m 54s | ETA 33h 39m 11s
+  💾 saved checkpoint_epoch0345.pth + updated loss_history.csv/png
+epoch 346 | train 1.1130 (seg 0.0766, thick 1.0364) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 52s | elapsed 31h 41m 48s | ETA 33h 26m 0s
+  💾 saved checkpoint_epoch0346.pth + updated loss_history.csv/png
+epoch 347 | train 1.1130 (seg 0.0765, thick 1.0365) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 51s | elapsed 31h 54m 40s | ETA 33h 12m 49s
+  💾 saved checkpoint_epoch0347.pth + updated loss_history.csv/png
+epoch 348 | train 1.1158 (seg 0.0765, thick 1.0393) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 50s | elapsed 32h 7m 31s | ETA 32h 59m 37s
+  💾 saved checkpoint_epoch0348.pth + updated loss_history.csv/png
+epoch 349 | train 1.1118 (seg 0.0765, thick 1.0353) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 5s | elapsed 32h 20m 37s | ETA 32h 46m 40s
+  💾 saved checkpoint_epoch0349.pth + updated loss_history.csv/png
+epoch 350 | train 1.1129 (seg 0.0765, thick 1.0364) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 23s | elapsed 32h 34m 2s | ETA 32h 34m 2s
+  💾 saved checkpoint_epoch0350.pth + updated loss_history.csv/png
+epoch 351 | train 1.1139 (seg 0.0765, thick 1.0374) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 20s | elapsed 32h 47m 23s | ETA 32h 21m 20s
+  💾 saved checkpoint_epoch0351.pth + updated loss_history.csv/png
+epoch 352 | train 1.1125 (seg 0.0765, thick 1.0360) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 21s | elapsed 33h 0m 45s | ETA 32h 8m 38s
+  💾 saved checkpoint_epoch0352.pth + updated loss_history.csv/png
+epoch 353 | train 1.1142 (seg 0.0765, thick 1.0377) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 52s | elapsed 33h 13m 39s | ETA 31h 55m 28s
+  💾 saved checkpoint_epoch0353.pth + updated loss_history.csv/png
+epoch 354 | train 1.1132 (seg 0.0765, thick 1.0367) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 51s | elapsed 33h 26m 31s | ETA 31h 42m 17s
+  💾 saved checkpoint_epoch0354.pth + updated loss_history.csv/png
+epoch 355 | train 1.1120 (seg 0.0765, thick 1.0355) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 51s | elapsed 33h 39m 24s | ETA 31h 29m 7s
+  💾 saved checkpoint_epoch0355.pth + updated loss_history.csv/png
+epoch 356 | train 1.1132 (seg 0.0766, thick 1.0366) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 54s | elapsed 33h 52m 19s | ETA 31h 15m 59s
+  💾 saved checkpoint_epoch0356.pth + updated loss_history.csv/png
+epoch 357 | train 1.1128 (seg 0.0764, thick 1.0364) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 11s | elapsed 34h 5m 31s | ETA 31h 3m 7s
+  💾 saved checkpoint_epoch0357.pth + updated loss_history.csv/png
+epoch 358 | train 1.1142 (seg 0.0766, thick 1.0377) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 20s | elapsed 34h 18m 52s | ETA 30h 50m 23s
+  💾 saved checkpoint_epoch0358.pth + updated loss_history.csv/png
+epoch 359 | train 1.1127 (seg 0.0765, thick 1.0362) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 19s | elapsed 34h 32m 13s | ETA 30h 37m 37s
+  💾 saved checkpoint_epoch0359.pth + updated loss_history.csv/png
+epoch 360 | train 1.1129 (seg 0.0765, thick 1.0364) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 54s | elapsed 34h 45m 8s | ETA 30h 24m 30s
+  💾 saved checkpoint_epoch0360.pth + updated loss_history.csv/png
+epoch 361 | train 1.1135 (seg 0.0765, thick 1.0370) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 54s | elapsed 34h 58m 3s | ETA 30h 11m 22s
+  💾 saved checkpoint_epoch0361.pth + updated loss_history.csv/png
+epoch 362 | train 1.1124 (seg 0.0765, thick 1.0359) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 12m 53s | elapsed 35h 10m 57s | ETA 29h 58m 13s
+  💾 saved checkpoint_epoch0362.pth + updated loss_history.csv/png
+epoch 363 | train 1.1134 (seg 0.0765, thick 1.0368) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 54s | elapsed 35h 23m 52s | ETA 29h 45m 6s
+  💾 saved checkpoint_epoch0363.pth + updated loss_history.csv/png
+epoch 364 | train 1.1138 (seg 0.0765, thick 1.0373) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 18s | elapsed 35h 37m 11s | ETA 29h 32m 18s
+  💾 saved checkpoint_epoch0364.pth + updated loss_history.csv/png
+epoch 365 | train 1.1124 (seg 0.0765, thick 1.0359) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 13m 26s | elapsed 35h 50m 39s | ETA 29h 19m 37s
+  💾 saved checkpoint_epoch0365.pth + updated loss_history.csv/png
+epoch 366 | train 1.1133 (seg 0.0765, thick 1.0368) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 27s | elapsed 36h 4m 7s | ETA 29h 6m 56s
+  💾 saved checkpoint_epoch0366.pth + updated loss_history.csv/png
+epoch 367 | train 1.1137 (seg 0.0765, thick 1.0372) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 54s | elapsed 36h 17m 2s | ETA 28h 53m 48s
+  💾 saved checkpoint_epoch0367.pth + updated loss_history.csv/png
+epoch 368 | train 1.1138 (seg 0.0765, thick 1.0373) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 55s | elapsed 36h 29m 59s | ETA 28h 40m 42s
+  💾 saved checkpoint_epoch0368.pth + updated loss_history.csv/png
+epoch 369 | train 1.1143 (seg 0.0765, thick 1.0378) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 55s | elapsed 36h 42m 55s | ETA 28h 27m 35s
+  💾 saved checkpoint_epoch0369.pth + updated loss_history.csv/png
+epoch 370 | train 1.1136 (seg 0.0765, thick 1.0371) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 57s | elapsed 36h 55m 53s | ETA 28h 14m 30s
+  💾 saved checkpoint_epoch0370.pth + updated loss_history.csv/png
+epoch 371 | train 1.1111 (seg 0.0765, thick 1.0346) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 13s | elapsed 37h 9m 8s | ETA 28h 1m 37s
+  💾 saved checkpoint_epoch0371.pth + updated loss_history.csv/png
+epoch 372 | train 1.1130 (seg 0.0764, thick 1.0365) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 29s | elapsed 37h 22m 38s | ETA 27h 48m 56s
+  💾 saved checkpoint_epoch0372.pth + updated loss_history.csv/png
+epoch 373 | train 1.1130 (seg 0.0764, thick 1.0365) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 26s | elapsed 37h 36m 6s | ETA 27h 36m 12s
+  💾 saved checkpoint_epoch0373.pth + updated loss_history.csv/png
+epoch 374 | train 1.1134 (seg 0.0765, thick 1.0369) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 26s | elapsed 37h 49m 32s | ETA 27h 23m 27s
+  💾 saved checkpoint_epoch0374.pth + updated loss_history.csv/png
+epoch 375 | train 1.1135 (seg 0.0765, thick 1.0370) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 50s | elapsed 38h 2m 24s | ETA 27h 10m 17s
+  💾 saved checkpoint_epoch0375.pth + updated loss_history.csv/png
+epoch 376 | train 1.1137 (seg 0.0765, thick 1.0372) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 50s | elapsed 38h 15m 15s | ETA 26h 57m 6s
+  💾 saved checkpoint_epoch0376.pth + updated loss_history.csv/png
+epoch 377 | train 1.1133 (seg 0.0765, thick 1.0367) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 50s | elapsed 38h 28m 6s | ETA 26h 43m 56s
+  💾 saved checkpoint_epoch0377.pth + updated loss_history.csv/png
+epoch 378 | train 1.1134 (seg 0.0765, thick 1.0369) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 57s | elapsed 38h 41m 4s | ETA 26h 30m 50s
+  💾 saved checkpoint_epoch0378.pth + updated loss_history.csv/png
+epoch 379 | train 1.1131 (seg 0.0765, thick 1.0366) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 13m 15s | elapsed 38h 54m 20s | ETA 26h 17m 57s
+  💾 saved checkpoint_epoch0379.pth + updated loss_history.csv/png
+epoch 380 | train 1.1141 (seg 0.0765, thick 1.0376) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 15s | elapsed 39h 7m 36s | ETA 26h 5m 4s
+  💾 saved checkpoint_epoch0380.pth + updated loss_history.csv/png
+epoch 381 | train 1.1123 (seg 0.0765, thick 1.0359) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 13m 18s | elapsed 39h 20m 55s | ETA 25h 52m 12s
+  💾 saved checkpoint_epoch0381.pth + updated loss_history.csv/png
+epoch 382 | train 1.1122 (seg 0.0765, thick 1.0356) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 12m 48s | elapsed 39h 33m 44s | ETA 25h 39m 1s
+  💾 saved checkpoint_epoch0382.pth + updated loss_history.csv/png
+epoch 383 | train 1.1146 (seg 0.0766, thick 1.0381) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 12m 49s | elapsed 39h 46m 34s | ETA 25h 25m 50s
+  💾 saved checkpoint_epoch0383.pth + updated loss_history.csv/png
+epoch 384 | train 1.1115 (seg 0.0766, thick 1.0350) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 12m 49s | elapsed 39h 59m 25s | ETA 25h 12m 40s
+  💾 saved checkpoint_epoch0384.pth + updated loss_history.csv/png
+epoch 385 | train 1.1134 (seg 0.0765, thick 1.0369) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 49s | elapsed 40h 12m 15s | ETA 24h 59m 30s
+  💾 saved checkpoint_epoch0385.pth + updated loss_history.csv/png
+epoch 386 | train 1.1127 (seg 0.0765, thick 1.0362) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 13m 3s | elapsed 40h 25m 20s | ETA 24h 46m 29s
+  💾 saved checkpoint_epoch0386.pth + updated loss_history.csv/png
+epoch 387 | train 1.1127 (seg 0.0765, thick 1.0361) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 13m 14s | elapsed 40h 38m 35s | ETA 24h 33m 34s
+  💾 saved checkpoint_epoch0387.pth + updated loss_history.csv/png
+epoch 388 | train 1.1152 (seg 0.0765, thick 1.0387) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 13m 22s | elapsed 40h 51m 58s | ETA 24h 20m 44s
+  💾 saved checkpoint_epoch0388.pth + updated loss_history.csv/png
+epoch 389 | train 1.1124 (seg 0.0766, thick 1.0358) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 20s | elapsed 41h 5m 19s | ETA 24h 7m 53s
+  💾 saved checkpoint_epoch0389.pth + updated loss_history.csv/png
+epoch 390 | train 1.1119 (seg 0.0766, thick 1.0353) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 50s | elapsed 41h 18m 10s | ETA 23h 54m 43s
+  💾 saved checkpoint_epoch0390.pth + updated loss_history.csv/png
+epoch 391 | train 1.1130 (seg 0.0765, thick 1.0365) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 12m 50s | elapsed 41h 31m 1s | ETA 23h 41m 34s
+  💾 saved checkpoint_epoch0391.pth + updated loss_history.csv/png
+epoch 392 | train 1.1100 (seg 0.0765, thick 1.0335) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 48s | elapsed 41h 43m 50s | ETA 23h 28m 24s
+  💾 saved checkpoint_epoch0392.pth + updated loss_history.csv/png
+epoch 393 | train 1.1133 (seg 0.0765, thick 1.0368) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 3s | elapsed 41h 56m 54s | ETA 23h 15m 22s
+  💾 saved checkpoint_epoch0393.pth + updated loss_history.csv/png
+epoch 394 | train 1.1151 (seg 0.0765, thick 1.0386) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 13m 16s | elapsed 42h 10m 11s | ETA 23h 2m 28s
+  💾 saved checkpoint_epoch0394.pth + updated loss_history.csv/png
+epoch 395 | train 1.1129 (seg 0.0765, thick 1.0364) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 10s | elapsed 42h 23m 23s | ETA 22h 49m 31s
+  💾 saved checkpoint_epoch0395.pth + updated loss_history.csv/png
+epoch 396 | train 1.1134 (seg 0.0765, thick 1.0368) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 19s | elapsed 42h 36m 43s | ETA 22h 36m 37s
+  💾 saved checkpoint_epoch0396.pth + updated loss_history.csv/png
+epoch 397 | train 1.1130 (seg 0.0765, thick 1.0365) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 49s | elapsed 42h 49m 33s | ETA 22h 23m 28s
+  💾 saved checkpoint_epoch0397.pth + updated loss_history.csv/png
+epoch 398 | train 1.1129 (seg 0.0765, thick 1.0365) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 49s | elapsed 43h 2m 23s | ETA 22h 10m 19s
+  💾 saved checkpoint_epoch0398.pth + updated loss_history.csv/png
+epoch 399 | train 1.1130 (seg 0.0765, thick 1.0366) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 49s | elapsed 43h 15m 14s | ETA 21h 57m 10s
+  💾 saved checkpoint_epoch0399.pth + updated loss_history.csv/png
+epoch 400 | train 1.1133 (seg 0.0765, thick 1.0368) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 55s | elapsed 43h 28m 10s | ETA 21h 44m 5s
+  💾 saved checkpoint_epoch0400.pth + updated loss_history.csv/png
+epoch 401 | train 1.1141 (seg 0.0765, thick 1.0376) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 13m 9s | elapsed 43h 41m 20s | ETA 21h 31m 6s
+  💾 saved checkpoint_epoch0401.pth + updated loss_history.csv/png
+epoch 402 | train 1.1138 (seg 0.0765, thick 1.0373) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 19s | elapsed 43h 54m 40s | ETA 21h 18m 12s
+  💾 saved checkpoint_epoch0402.pth + updated loss_history.csv/png
+epoch 403 | train 1.1140 (seg 0.0765, thick 1.0375) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 16s | elapsed 44h 7m 57s | ETA 21h 5m 17s
+  💾 saved checkpoint_epoch0403.pth + updated loss_history.csv/png
+epoch 404 | train 1.1145 (seg 0.0765, thick 1.0380) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 50s | elapsed 44h 20m 48s | ETA 20h 52m 8s
+  💾 saved checkpoint_epoch0404.pth + updated loss_history.csv/png
+epoch 405 | train 1.1146 (seg 0.0766, thick 1.0380) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 50s | elapsed 44h 33m 40s | ETA 20h 39m 1s
+  💾 saved checkpoint_epoch0405.pth + updated loss_history.csv/png
+epoch 406 | train 1.1128 (seg 0.0765, thick 1.0363) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 49s | elapsed 44h 46m 30s | ETA 20h 25m 53s
+  💾 saved checkpoint_epoch0406.pth + updated loss_history.csv/png
+epoch 407 | train 1.1126 (seg 0.0765, thick 1.0361) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 48s | elapsed 44h 59m 20s | ETA 20h 12m 44s
+  💾 saved checkpoint_epoch0407.pth + updated loss_history.csv/png
+epoch 408 | train 1.1120 (seg 0.0765, thick 1.0355) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 1s | elapsed 45h 12m 22s | ETA 19h 59m 42s
+  💾 saved checkpoint_epoch0408.pth + updated loss_history.csv/png
+epoch 409 | train 1.1148 (seg 0.0765, thick 1.0382) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 12s | elapsed 45h 25m 35s | ETA 19h 46m 44s
+  💾 saved checkpoint_epoch0409.pth + updated loss_history.csv/png
+epoch 410 | train 1.1128 (seg 0.0765, thick 1.0363) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 19s | elapsed 45h 38m 56s | ETA 19h 33m 49s
+  💾 saved checkpoint_epoch0410.pth + updated loss_history.csv/png
+epoch 411 | train 1.1134 (seg 0.0765, thick 1.0369) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 29s | elapsed 45h 52m 26s | ETA 19h 20m 58s
+  💾 saved checkpoint_epoch0411.pth + updated loss_history.csv/png
+epoch 412 | train 1.1124 (seg 0.0765, thick 1.0359) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 24s | elapsed 46h 5m 51s | ETA 19h 8m 5s
+  💾 saved checkpoint_epoch0412.pth + updated loss_history.csv/png
+epoch 413 | train 1.1150 (seg 0.0765, thick 1.0385) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 18s | elapsed 46h 19m 10s | ETA 18h 55m 9s
+  💾 saved checkpoint_epoch0413.pth + updated loss_history.csv/png
+epoch 414 | train 1.1147 (seg 0.0765, thick 1.0382) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 21s | elapsed 46h 32m 33s | ETA 18h 42m 14s
+  💾 saved checkpoint_epoch0414.pth + updated loss_history.csv/png
+epoch 415 | train 1.1123 (seg 0.0765, thick 1.0358) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 12m 50s | elapsed 46h 45m 24s | ETA 18h 29m 6s
+  💾 saved checkpoint_epoch0415.pth + updated loss_history.csv/png
+epoch 416 | train 1.1133 (seg 0.0765, thick 1.0368) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 55s | elapsed 46h 58m 21s | ETA 18h 16m 1s
+  💾 saved checkpoint_epoch0416.pth + updated loss_history.csv/png
+epoch 417 | train 1.1129 (seg 0.0765, thick 1.0364) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 15s | elapsed 47h 11m 37s | ETA 18h 3m 3s
+  💾 saved checkpoint_epoch0417.pth + updated loss_history.csv/png
+epoch 418 | train 1.1110 (seg 0.0765, thick 1.0345) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 24s | elapsed 47h 25m 2s | ETA 17h 50m 9s
+  💾 saved checkpoint_epoch0418.pth + updated loss_history.csv/png
+epoch 419 | train 1.1121 (seg 0.0764, thick 1.0356) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 8s | elapsed 47h 38m 11s | ETA 17h 37m 8s
+  💾 saved checkpoint_epoch0419.pth + updated loss_history.csv/png
+epoch 420 | train 1.1121 (seg 0.0765, thick 1.0356) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 3s | elapsed 47h 51m 15s | ETA 17h 24m 5s
+  💾 saved checkpoint_epoch0420.pth + updated loss_history.csv/png
+epoch 421 | train 1.1136 (seg 0.0766, thick 1.0370) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 53s | elapsed 48h 4m 9s | ETA 17h 10m 59s
+  💾 saved checkpoint_epoch0421.pth + updated loss_history.csv/png
+epoch 422 | train 1.1137 (seg 0.0765, thick 1.0372) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 53s | elapsed 48h 17m 3s | ETA 16h 57m 53s
+  💾 saved checkpoint_epoch0422.pth + updated loss_history.csv/png
+epoch 423 | train 1.1117 (seg 0.0766, thick 1.0351) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 53s | elapsed 48h 29m 57s | ETA 16h 44m 46s
+  💾 saved checkpoint_epoch0423.pth + updated loss_history.csv/png
+epoch 424 | train 1.1143 (seg 0.0765, thick 1.0378) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 54s | elapsed 48h 42m 52s | ETA 16h 31m 41s
+  💾 saved checkpoint_epoch0424.pth + updated loss_history.csv/png
+epoch 425 | train 1.1113 (seg 0.0765, thick 1.0347) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 6s | elapsed 48h 56m 0s | ETA 16h 18m 40s
+  💾 saved checkpoint_epoch0425.pth + updated loss_history.csv/png
+epoch 426 | train 1.1139 (seg 0.0765, thick 1.0374) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 13m 25s | elapsed 49h 9m 26s | ETA 16h 5m 44s
+  💾 saved checkpoint_epoch0426.pth + updated loss_history.csv/png
+epoch 427 | train 1.1135 (seg 0.0765, thick 1.0370) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 28s | elapsed 49h 22m 55s | ETA 15h 52m 50s
+  💾 saved checkpoint_epoch0427.pth + updated loss_history.csv/png
+epoch 428 | train 1.1151 (seg 0.0765, thick 1.0386) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 13m 24s | elapsed 49h 36m 20s | ETA 15h 39m 53s
+  💾 saved checkpoint_epoch0428.pth + updated loss_history.csv/png
+epoch 429 | train 1.1135 (seg 0.0765, thick 1.0370) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 25s | elapsed 49h 49m 47s | ETA 15h 26m 57s
+  💾 saved checkpoint_epoch0429.pth + updated loss_history.csv/png
+epoch 430 | train 1.1127 (seg 0.0765, thick 1.0362) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 59s | elapsed 50h 2m 47s | ETA 15h 13m 53s
+  💾 saved checkpoint_epoch0430.pth + updated loss_history.csv/png
+epoch 431 | train 1.1119 (seg 0.0765, thick 1.0354) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 0s | elapsed 50h 15m 48s | ETA 15h 0m 49s
+  💾 saved checkpoint_epoch0431.pth + updated loss_history.csv/png
+epoch 432 | train 1.1125 (seg 0.0765, thick 1.0360) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 58s | elapsed 50h 28m 48s | ETA 14h 47m 45s
+  💾 saved checkpoint_epoch0432.pth + updated loss_history.csv/png
+epoch 433 | train 1.1126 (seg 0.0765, thick 1.0361) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 6s | elapsed 50h 41m 55s | ETA 14h 34m 43s
+  💾 saved checkpoint_epoch0433.pth + updated loss_history.csv/png
+epoch 434 | train 1.1137 (seg 0.0764, thick 1.0372) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 18s | elapsed 50h 55m 14s | ETA 14h 21m 44s
+  💾 saved checkpoint_epoch0434.pth + updated loss_history.csv/png
+epoch 435 | train 1.1120 (seg 0.0765, thick 1.0355) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 29s | elapsed 51h 8m 45s | ETA 14h 8m 48s
+  💾 saved checkpoint_epoch0435.pth + updated loss_history.csv/png
+epoch 436 | train 1.1127 (seg 0.0765, thick 1.0362) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 35s | elapsed 51h 22m 20s | ETA 13h 55m 53s
+  💾 saved checkpoint_epoch0436.pth + updated loss_history.csv/png
+epoch 437 | train 1.1143 (seg 0.0765, thick 1.0378) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 25s | elapsed 51h 35m 46s | ETA 13h 42m 55s
+  💾 saved checkpoint_epoch0437.pth + updated loss_history.csv/png
+epoch 438 | train 1.1113 (seg 0.0765, thick 1.0348) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 58s | elapsed 51h 48m 46s | ETA 13h 29m 50s
+  💾 saved checkpoint_epoch0438.pth + updated loss_history.csv/png
+epoch 439 | train 1.1134 (seg 0.0765, thick 1.0369) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 58s | elapsed 52h 1m 45s | ETA 13h 16m 45s
+  💾 saved checkpoint_epoch0439.pth + updated loss_history.csv/png
+epoch 440 | train 1.1131 (seg 0.0764, thick 1.0367) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 0s | elapsed 52h 14m 46s | ETA 13h 3m 41s
+  💾 saved checkpoint_epoch0440.pth + updated loss_history.csv/png
+epoch 441 | train 1.1127 (seg 0.0765, thick 1.0362) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 6s | elapsed 52h 27m 53s | ETA 12h 50m 38s
+  💾 saved checkpoint_epoch0441.pth + updated loss_history.csv/png
+epoch 442 | train 1.1139 (seg 0.0765, thick 1.0374) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 22s | elapsed 52h 41m 16s | ETA 12h 37m 39s
+  💾 saved checkpoint_epoch0442.pth + updated loss_history.csv/png
+epoch 443 | train 1.1114 (seg 0.0765, thick 1.0349) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 27s | elapsed 52h 54m 44s | ETA 12h 24m 41s
+  💾 saved checkpoint_epoch0443.pth + updated loss_history.csv/png
+epoch 444 | train 1.1124 (seg 0.0765, thick 1.0359) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 13m 29s | elapsed 53h 8m 14s | ETA 12h 11m 43s
+  💾 saved checkpoint_epoch0444.pth + updated loss_history.csv/png
+epoch 445 | train 1.1134 (seg 0.0765, thick 1.0369) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 13m 29s | elapsed 53h 21m 44s | ETA 11h 58m 45s
+  💾 saved checkpoint_epoch0445.pth + updated loss_history.csv/png
+epoch 446 | train 1.1139 (seg 0.0765, thick 1.0374) | val 1.3224 (seg 0.0771, thick 1.2452) | lr 1.53e-08 | epoch time 13m 29s | elapsed 53h 35m 14s | ETA 11h 45m 47s
+  💾 saved checkpoint_epoch0446.pth + updated loss_history.csv/png
+epoch 447 | train 1.1121 (seg 0.0765, thick 1.0357) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 53s | elapsed 53h 48m 9s | ETA 11h 32m 40s
+  💾 saved checkpoint_epoch0447.pth + updated loss_history.csv/png
+epoch 448 | train 1.1139 (seg 0.0766, thick 1.0373) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 53s | elapsed 54h 1m 3s | ETA 11h 19m 34s
+  💾 saved checkpoint_epoch0448.pth + updated loss_history.csv/png
+epoch 449 | train 1.1145 (seg 0.0765, thick 1.0381) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 12m 55s | elapsed 54h 13m 58s | ETA 11h 6m 28s
+  💾 saved checkpoint_epoch0449.pth + updated loss_history.csv/png
+epoch 450 | train 1.1136 (seg 0.0765, thick 1.0371) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 11s | elapsed 54h 27m 11s | ETA 10h 53m 26s
+  💾 saved checkpoint_epoch0450.pth + updated loss_history.csv/png
+epoch 451 | train 1.1148 (seg 0.0765, thick 1.0382) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 48s | elapsed 54h 40m 59s | ETA 10h 40m 30s
+  💾 saved checkpoint_epoch0451.pth + updated loss_history.csv/png
+epoch 452 | train 1.1105 (seg 0.0765, thick 1.0340) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 57s | elapsed 54h 54m 58s | ETA 10h 27m 36s
+  💾 saved checkpoint_epoch0452.pth + updated loss_history.csv/png
+epoch 453 | train 1.1134 (seg 0.0765, thick 1.0369) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 57s | elapsed 55h 8m 56s | ETA 10h 14m 42s
+  💾 saved checkpoint_epoch0453.pth + updated loss_history.csv/png
+epoch 454 | train 1.1130 (seg 0.0765, thick 1.0365) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 55s | elapsed 55h 22m 51s | ETA 10h 1m 46s
+  💾 saved checkpoint_epoch0454.pth + updated loss_history.csv/png
+epoch 455 | train 1.1126 (seg 0.0766, thick 1.0360) | val 1.3225 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 50s | elapsed 55h 36m 43s | ETA 9h 48m 50s
+  💾 saved checkpoint_epoch0455.pth + updated loss_history.csv/png
+epoch 456 | train 1.1113 (seg 0.0765, thick 1.0348) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 21s | elapsed 55h 50m 5s | ETA 9h 35m 47s
+  💾 saved checkpoint_epoch0456.pth + updated loss_history.csv/png
+epoch 457 | train 1.1140 (seg 0.0764, thick 1.0375) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 21s | elapsed 56h 3m 27s | ETA 9h 22m 45s
+  💾 saved checkpoint_epoch0457.pth + updated loss_history.csv/png
+epoch 458 | train 1.1132 (seg 0.0765, thick 1.0367) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 31s | elapsed 56h 16m 59s | ETA 9h 9m 44s
+  💾 saved checkpoint_epoch0458.pth + updated loss_history.csv/png
+epoch 459 | train 1.1151 (seg 0.0765, thick 1.0386) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 47s | elapsed 56h 30m 47s | ETA 8h 56m 46s
+  💾 saved checkpoint_epoch0459.pth + updated loss_history.csv/png
+epoch 460 | train 1.1116 (seg 0.0765, thick 1.0351) | val 1.3224 (seg 0.0771, thick 1.2453) | lr 1.53e-08 | epoch time 13m 55s | elapsed 56h 44m 44s | ETA 8h 43m 48s
+  💾 saved checkpoint_epoch0460.pth + updated loss_history.csv/png
