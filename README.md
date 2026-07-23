@@ -1,6 +1,6 @@
 # Neural Emulation of Mass Flow Runout
 
-This repository extends the work of Nava, Chen & Van Wyk de Vries (2025), which introduced a neural network-based emulator for landslide runout prediction as a fast surrogate for physics-based simulation. The original authors released their dataset and core architecture code but no training pipeline. This repository adds a complete, reproducible training pipeline built from scratch, along with bug fixes, evaluation results, and an applied case study.
+This repository extends the work of Nava, Chen & Van Wyk de Vries (2025), which introduced a neural network-based emulator for landslide runout prediction as a fast surrogate for physics-based simulation. The original authors released their dataset and core architecture code but no training pipeline. This repository adds a complete, reproducible training pipeline built from scratch, and evaluation results.
 
 ## What's in this repo
 
@@ -13,7 +13,6 @@ This repository extends the work of Nava, Chen & Van Wyk de Vries (2025), which 
 │   └── sample_inputs/    8-channel model input visualization
 ├── diagrams/          Architecture diagrams (PNG + SVG)
 ├── emulator/           (original authors' code)
-├── runout/            (original authors' code)
 └── utils/             (original authors' code)
 ```
 
@@ -70,17 +69,9 @@ Final training metrics (~epoch 460):
 
 Loss curves: `results/train_loss_every10.png`, `results/val_loss_every10.png`, `results/train_vs_val_loss_every10.png`
 
-Per-sample test metrics (F1, IoU, precision, recall, MAE, RMSE) are in `results/metrics_summary.csv`, with visual predictions across five global regions (Alps, Alaska, Papua New Guinea, North America, Australia) in `results/predictions/`.
+Per-sample test metrics (F1, IoU, precision, recall, MAE, RMSE) are in `results/metrics_summary.csv`, with visual predictions across four global regions in `results/predictions/`.
 
-## Case study: Makunosawa, Japan
 
-The pretrained emulator was applied to a real landslide case study at Makunosawa, Japan (36.910833°N, 138.140556°E, estimated volume ~78,164 m³), using a GeoTIFF DEM. Three bugs were identified and fixed in the inference pipeline during this process:
-
-1. **Incorrect cell size** — hardcoded at 12.5m instead of the DEM's actual ~27.967m, causing scaling errors in predicted thickness
-2. **Cross-run contamination** — Sobol sensitivity runs were silently mixing with baseline run outputs during probability map aggregation
-3. **Zero-fill edge padding** — produced rectangular artifacts at patch boundaries; fixed with edge-replication padding
-
-A corrected baseline inference script converts the source point from WGS84 to UTM and locates it at pixel (row=180, col=146) using the DEM's true resolution.
 
 ## Setup
 
@@ -89,9 +80,8 @@ This project uses a conda environment. Key dependencies: PyTorch, NumPy, GDAL/ra
 ```bash
 conda create -n unet-env python=3.x
 conda activate unet-env
-# install dependencies (see environment.yml if provided)
 ```
 
 ## Acknowledgments
 
-Built on the dataset and base architecture released by Nava, Chen & Van Wyk de Vries (2025). This repository extends their work with a full training pipeline, bug fixes, evaluation, and an applied case study, completed as part of a research internship.
+Built on the dataset and base architecture released by Nava, Chen & Van Wyk de Vries (2025). This repository extends their work with a full training pipeline, evaluation, and an applied case study, completed as part of a research internship.
