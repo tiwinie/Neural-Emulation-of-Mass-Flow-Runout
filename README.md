@@ -84,4 +84,4 @@ conda activate unet-env
 
 ## Acknowledgments
 
-Built on the dataset and base architecture released by Nava, Chen & Van Wyk de Vries (2025). This repository extends their work with a full training pipeline, evaluation, and an applied case study, completed as part of a research internship.
+Built on the dataset and base architecture released by Nava, Chen & Van Wyk de Vries (2025). This repository extends their work with a full training pipeline, evaluation, completed as part of a research internship.
