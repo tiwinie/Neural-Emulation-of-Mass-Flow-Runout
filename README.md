@@ -1,4 +1,5 @@
 # Neural Emulation of Mass Flow Runout
+Disclaimer: This repository is my own interpretation and reimplementation of the work by Nava, Chen & Van Wyk de Vries (2025). It was built independently, without training code from the original authors, as part of a research internship. Any errors, bugs, deviations from the original methodology, or gaps in performance are entirely my own, and should not be taken to reflect on the original paper or its authors.
 
 This repository extends the work of Nava, Chen & Van Wyk de Vries (2025), which introduced a neural network-based emulator for landslide runout prediction as a fast surrogate for physics-based simulation. The original authors released their dataset and core architecture code but no training pipeline. This repository adds a complete, reproducible training pipeline built from scratch, and evaluation results.
 
@@ -13,12 +14,11 @@ This repository extends the work of Nava, Chen & Van Wyk de Vries (2025), which 
 │   └── sample_inputs/    8-channel model input visualization
 ├── diagrams/          Architecture diagrams (PNG + SVG)
 ├── emulator/           (original authors' code)
-└── utils/             (original authors' code)
 ```
 
 ## Background
 
-Landslide runout modeling — predicting how far and where a landslide's debris will travel — is traditionally done with physics-based simulations that are computationally expensive. This project trains a neural network emulator to approximate those simulations in a fraction of the time, taking topographic data and flow parameters as input and predicting both the runout extent and deposit thickness.
+Physics-based landslide simulations are accurate but computationally expensive. Neural emulators aim to approximate these simulations thousands of times faster while maintaining useful accuracy. This project trains a U-Net-based emulator that predicts both landslide extent and deposit thickness from terrain data and flow parameters.
 
 ## Model architecture: UNetFiLMPlus
 
@@ -56,8 +56,9 @@ Learning rate decayed to near-zero by epoch 400+, so later epochs contributed ne
 
 ## A critical bug fix
 
-During evaluation, the original pretrained checkpoint produced near-zero scores. Investigation traced this to an inconsistency in how the slope and curvature channels were computed: one code path used raw elevation, another used normalized DEM values. Fixing this preprocessing inconsistency and retraining resolved the issue — see `evaluation/sanity_check_original_pipeline.py` for the validation approach.
-
+During evaluation, the pretrained checkpoint produced unexpectedly poor results.
+Tracing the preprocessing pipeline revealed that slope and curvature were computed differently in separate code paths: one used the raw DEM while another used normalized elevations. This inconsistency changed two of the eight input channels and severely degraded performance.
+After correcting the preprocessing and retraining, the model recovered expected performance. The validation script used to verify this is included in: `evaluation/sanity_check_original_pipeline.py`
 ## Results
 
 Final training metrics (~epoch 460):
